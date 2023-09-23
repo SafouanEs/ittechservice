@@ -1,0 +1,45 @@
+//===========================================================================//
+// ABOUT SECTION
+//===========================================================================//
+@import "variables";
+/*about section*/
+#about {
+  /*profile about*/
+  margin-top: 200px;
+
+  .about-btn {
+    /*about buttons*/
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    animation-delay: 1s;
+    text-align: center;
+    .btn {
+      /*button style*/
+      margin: 7px 7px;
+      background: $primary-color;
+      color: #e9e1e1;
+      width: 180px;
+      border-radius: 2px;
+      &:hover {
+       /*hover effect*/
+        background: $twitter-blue;
+      }
+    }
+  }
+}
+
+// Define Twitter's primary color
+$twitter-blue: #1DA1F2;
+
+// Use the primary color in your styles
+button {
+  background-color: $twitter-blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+
+
